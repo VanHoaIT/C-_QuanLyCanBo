@@ -1,0 +1,10 @@
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\DAO\bin\Debug\DAO.dll
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\DAO\bin\Debug\DAO.pdb
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\DAO\bin\Debug\DTO.dll
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\DAO\bin\Debug\DTO.pdb
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\DAO\bin\Debug\DTO.dll.config
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\DAO\obj\Debug\DAO.csproj.CopyComplete
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\DAO\obj\Debug\DAO.dll
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\DAO\obj\Debug\DAO.pdb

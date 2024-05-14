@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QLCanBoCA" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=MSI;Initial Catalog=QLCanBoCA;Integrated Security=True" SettingsObjectName="DTO.Properties.Settings" SettingsPropertyName="QLCanBoCAConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Account" Member="Accounts">
+    <Type Name="Account">
+      <Column Name="UserName" Type="System.String" DbType="NChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DisplayName" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="PassWord" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Type" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="AccountType_Account" Member="AccountType" ThisKey="Type" OtherKey="IDType" Type="AccountType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AccountType" Member="AccountTypes">
+    <Type Name="AccountType">
+      <Column Name="IDType" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TypeName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="AccountType_Account" Member="Accounts" ThisKey="IDType" OtherKey="Type" Type="Account" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Department" Member="Departments">
+    <Type Name="Department">
+      <Column Name="IDDepartment" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DepartmentName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="Department_StaffInfo" Member="StaffInfos" ThisKey="IDDepartment" OtherKey="IDDepartment" Type="StaffInfo" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Rank" Member="Ranks">
+    <Type Name="Rank">
+      <Column Name="IDRank" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RankName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="Rank_StaffInfo" Member="StaffInfos" ThisKey="IDRank" OtherKey="IDRank" Type="StaffInfo" />
+    </Type>
+  </Table>
+  <Table Name="dbo.StaffInfo" Member="StaffInfos">
+    <Type Name="StaffInfo">
+      <Column Name="ID" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Birthday" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IDDepartment" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IDRank" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Department_StaffInfo" Member="Department" ThisKey="IDDepartment" OtherKey="IDDepartment" Type="Department" IsForeignKey="true" />
+      <Association Name="Rank_StaffInfo" Member="Rank" ThisKey="IDRank" OtherKey="IDRank" Type="Rank" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

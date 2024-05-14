@@ -1,0 +1,12 @@
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\BUS\bin\Debug\BUS.dll
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\BUS\bin\Debug\BUS.pdb
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\BUS\bin\Debug\DAO.dll
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\BUS\bin\Debug\DTO.dll
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\BUS\bin\Debug\DAO.pdb
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\BUS\bin\Debug\DTO.pdb
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\BUS\bin\Debug\DTO.dll.config
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\BUS\obj\Debug\BUS.dll
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\BUS\obj\Debug\BUS.pdb

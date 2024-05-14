@@ -1,0 +1,7 @@
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\DTO\bin\Debug\DTO.dll.config
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\DTO\bin\Debug\DTO.dll
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\DTO\bin\Debug\DTO.pdb
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\DTO\obj\Debug\DTO.dll
+D:\2021-2022_ky2\LapTrinhDesktop\DuAnCuoiKy\QLCanBoCA\DTO\obj\Debug\DTO.pdb
